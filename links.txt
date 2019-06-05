@@ -1,0 +1,5 @@
+https://api.bart.gov/api/stn.aspx?key='MW9S-E7SL-26DU-VV8V'&cmd=stns&json=y
+
+http://api.bart.gov/api/etd.aspx?cmd=etd&orig=12th&key=MW9S-E7SL-26DU-VV8V
+
+json.station[0].etd.forEach((estimate)=> {console.log(estimate)})
